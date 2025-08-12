@@ -1,0 +1,44 @@
+ #b{
+	height:60px;
+	text-align: center;
+	background-color: pink;
+	margin-top:30px;
+	margin-bottom:20px;
+
+}
+
+#a{
+	color:red;
+}
+
+#c{
+	background-color: pink;
+	height:30px;
+}
+
+#d {
+	font-weight: 600;
+}
+
+#e{
+	border:2px solid black;
+}
+
+.aa{
+	background-color: rgb(199, 195, 195);
+}
+
+body.active{
+	background-color: pink;
+}
+
+#tt{
+	text-align:center ;
+	height:150px;
+	width:500px;
+	border:2px solid black;
+}
+
+.tt{
+	border:2px solid black;
+}

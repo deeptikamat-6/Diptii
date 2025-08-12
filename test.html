@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="test.css" />
+</head>
+<body>
+	<div id="b">
+		<h1> Welcome to <span id="a"> My Website</span></h1>
+		<p id="c" > Advanced HTML & JS Example </p>
+	</div>
+	<br>
+	<hr>
+
+	<p> click me to change my colart this is a <span id="d"> more challenging</span> HTML page for students.Famous quote:"Leaning never exhausts the mind." code.example:console.log("Hello World")</p>
+	<p> "The best way to predict the future is to create it" -Abraham Lincoln</p>
+	<div id="e">
+	<img src="src" alt="Dummy Image" />
+	</div>
+	<hr>
+	
+	<h1>Student Data Table</h1>
+	<br> 
+	<table id="tt">
+		<tr class="tt">
+			<th> Name </th>
+			<th> age </th>
+			<th> course </th>
+		</tr>
+		<tr class="tt">
+			<td> John Doe </td>
+			<td> 20 </td>
+			<td> computer science</td>
+		</tr>
+		<tr class="tt">
+			<td> Jene smith </td>
+			<td> 22 </td>
+			<td> information science</td>
+		</tr>
+		<tr class="tt">
+			<td> Sam Wilson </td>
+			<td> 19 </td>
+			<td> Data Analytics </td>
+		</tr>
+
+	</table>
+	<hr>
+
+	<h1> Top Skills </h1>
+	<ul>
+		<li> HTML</li>
+		<ul>
+			<li>Tags</li>
+			<li>Attributes</li>
+			<li>Forms</li>
+		</ul>
+		<li>CSS</li>
+		<ul>
+			<li>Selectors</li>
+			<li>Box Model</li>
+			<li>Positioning</li>
+		</ul>
+		<li>JavaScript</li>
+		<ul>
+			<li>DOM</li>
+			<li>Events</li>
+			<li>Functions</li>
+		</ul>
+	</ul>
+	<br>
+	<form>
+		<input type="text" placeholder="Enter new skill" />
+		<button class="aa">add skill</button>
+	</form>
+	<br>
+	<hr>
+
+	<h1> Contact Form</h1>
+	<form>
+		<p>Name:</p>
+		<input type="text" />
+		<p>Email:</p>
+		<input type="email" />
+	</form>
+	<button class="aa">Submit</button>
+     <hr>
+
+	 <h1> Fun Zone</h1>
+	 <button class="aa" id="aa"> Change Background Color</button>
+	 <hr>
+
+	 <script>
+		document.getElementById("aa").addEventListener("click",function() {
+			document.body.classList.toggle("active")
+			 //document.body.style.backgroundColor='red'
+		});
+	 </script>
+
+</body>
+</html>
